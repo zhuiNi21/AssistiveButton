@@ -6,12 +6,14 @@
 //
 
 #import "ZHDragButton.h"
-#define ZHDragAnimationDuration 0.3f
-//隐藏在屏幕里的多少（0~1）
-#define ZHDragScale  1
 
 #define SrceenH [UIScreen mainScreen].bounds.size.height
 #define SrceenW [UIScreen mainScreen].bounds.size.width
+@interface ZHDragButton()
+{
+    CGPoint beginPoint;
+}
+@end
 
 @implementation ZHDragButton
 
